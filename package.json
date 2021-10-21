@@ -1,0 +1,14 @@
+{
+  "name": "@tim-code/browser-util",
+  "version": "0.0.2",
+  "description": "",
+  "type": "module",
+  "exports": {
+    "./": "./src"
+  },
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
