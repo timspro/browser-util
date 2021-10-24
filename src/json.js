@@ -13,8 +13,10 @@ async function jsonFetch(url, options) {
     }
     console.error(response.status, json)
   } catch (error) {
-    const shorter = text.slice(0, 50)
-    console.error(`could not parse json starting with:`, shorter)
+    const maxLength = 50
+    const shorter = text.slice(0, maxLength)
+    const ellipsis = text.length > maxLength ? "..." : ""
+    console.error(response.status, `invalid json`, `${shorter}${ellipsis}`)
   }
   return {}
 }
