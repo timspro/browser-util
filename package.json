@@ -1,9 +1,9 @@
 {
   "name": "@tim-code/browser-util",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "type": "module",
-  "main": "src/index.js",
+  "main": "frontend/index.js",
   "author": "",
   "license": "MIT",
   "scripts": {
@@ -23,18 +23,7 @@
     ]
   },
   "eslintConfig": {
-    "extends": "@tim-code",
-    "overrides": [
-      {
-        "files": [
-          "src/**"
-        ],
-        "env": {
-          "node": false,
-          "browser": true
-        }
-      }
-    ]
+    "extends": "@tim-code"
   },
   "publishConfig": {
     "access": "public"
