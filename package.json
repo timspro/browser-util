@@ -1,6 +1,6 @@
 {
   "name": "@tim-code/browser-util",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "",
   "type": "module",
   "main": "frontend/index.js",
@@ -10,11 +10,11 @@
     "test": "node --no-warnings --experimental-vm-modules node_modules/.bin/jest"
   },
   "devDependencies": {
-    "@tim-code/autotest": "^0.9.0",
-    "@tim-code/eslint-config": "^0.5.6",
+    "@tim-code/autotest": "^0.10.3",
+    "@tim-code/eslint-config": "^0.5.14",
     "browser-env": "^3.3.0",
-    "jest": "^27.3.1",
-    "node-fetch": "^3.0.0"
+    "jest": "^27.4.4",
+    "node-fetch": "^3.1.0"
   },
   "jest": {
     "transform": {},
@@ -29,6 +29,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@tim-code/json-fetch": "^0.4.0"
+    "@tim-code/json-fetch": "^0.4.1"
   }
 }
