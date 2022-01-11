@@ -1,6 +1,6 @@
 {
   "name": "@tim-code/browser-util",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "",
   "type": "module",
   "main": "frontend/index.js",
@@ -29,6 +29,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@tim-code/json-fetch": "^0.4.4"
+    "@tim-code/json-fetch": "^0.4.5"
   }
 }
