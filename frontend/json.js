@@ -18,3 +18,8 @@ export function post(url, body, options = {}) {
   url = checkUrl(url)
   return json.post(url, body, options)
 }
+
+export function request(url, options = {}) {
+  url = checkUrl(url)
+  return json.request(url, options)
+}
